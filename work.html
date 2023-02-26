@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/dist/output.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+<body class="bg-black">
+    <header>
+        <div class="text-center font-bold text-2xl text-white">
+            <p class="py-3"> Sergio Nahas </p>
+        </div>
+    </header>
+    <grid class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+        <navgrid class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+            <nav :class="{'block': open, 'hidden': !open}" class="flex-grow md:block px-4 pb-4 md:pb-0 md:overflow-y-auto">
+                <a class="block px-4 py-2 mt-2 text-sm text-white font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/">Home</a>
+                <a class="block px-4 py-2 mt-2 text-sm text-white font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/about.html">About</a>
+                <a class="block px-4 py-2 mt-2 text-sm text-white font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/work.html">Work</a>
+                <a class="block px-4 py-2 mt-2 text-sm text-white font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/college.html">College</a>
+                <a class="block px-4 py-2 mt-2 text-sm text-white font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/bookshelf.html">Bookshelf</a>
+                <a class="block px-4 py-2 mt-2 text-sm text-white font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="https://github.com/sergionahas">Github</a>
+                <a class="block px-4 py-2 mt-2 text-sm text-white font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="https://twitter.com/sergionahas_">Twitter</a>
+                <a class="block px-4 py-2 mt-2 text-sm text-white font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="https://www.linkedin.com/in/sergionahas/">LinkedIn</a>
+              </nav>
+        </navgrid>
+        <div class="h-auto max-w-lg mx-auto py-10">
+            
+
+<ol class="relative border-l border-gray-200 dark:border-gray-700">                  
+    <li class="mb-10 ml-6">            
+        <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-white bg-white">
+            <img src="/static/img/enoki.png">
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white pl-5">Enoki, Inc. </h3>
+        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 pl-5">January 2023 - Present</time>
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 pl-5">Built cloud-based backend (AWS) for Linux multiplayer desktops.</p>
+    </li>
+    <li class="mb-10 ml-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-white bg-white">
+            <img src="/static/img/meta.png">
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white pl-5">Meta, Inc. </h3>
+        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 pl-5">May 2022 - August 2022</time>
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400 pl-5">Built end to end test infrastructure for product serving all family of apps (2B+ users).</p>
+    </li>
+    <li class="ml-6 mb-10">
+        <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-white bg-white">
+            <img src="/static/img/jibrel.png">
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white pl-5">Jibrel Network</h3>
+        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 pl-5">May 2021 - August 2021</time>
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400 pl-5">Learned what blokchain is and developed smart contracts in Solidity.</p>
+    </li>
+    <li class="mb-10 ml-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-white bg-white">
+            <img src="/static/img/charge.png">
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white pl-5">Charge Ventures </h3>
+        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 pl-5">October 2020 - April 2021</time>
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400 pl-5">Spent hours sourcing potential investors. Ended up automating the process using linkedIn scraper.</p>
+    </li>
+    <li class="mb-10 ml-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-white bg-white">
+            <img src="/static/img/mevp.jpeg">
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white pl-5">Middle East Venture Partners</h3>
+        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 pl-5">May 2020 - August 2020</time>
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400 pl-5">Learned how to use excel and powerpoint without a mouse</p>
+    </li>
+</ol>
+
+
+
+        </div>
+    </grid>
+</body>
+</html>
